@@ -1,46 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mantenimiento-ServicioTecnico</title>
+    <title>Mantenimiento - Servicio Técnico</title>
 </head>
 <body>
 
-    <div id="indice-web">
+    <header>
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="inicio-sesion.html">Iniciar Sesión</a></li>
+                <li><a href="producto.html">Productos</a></li>
+                <li><a href="repuestos.html">Repuestos</a></li>
             </ul>
         </nav>
-    </div>
+    </header>
 
-    <h1>Mantenimiento</h1>
+    <main>
+        <h1>Mantenimiento de Computadores</h1>
+        <p>Completa el formulario para reservar una mantención o solicitar evaluación técnica de tu equipo.</p>
 
-    <div id="seccion.formulario">
-        <h2>Solicitud de Evaluacion Tecnica</h2>
-        <p>Ingrese tus datos y los sintomas de tu equipo. Te contactaremos en la brevedad posible.</p>
+        <section>
+            <h2>Solicitud de Evaluación Técnica</h2>
+            <form action="#" method="post">
+                <div>
+                    <label for="input-nombre">Nombre completo:</label><br>
+                    <input type="text" id="input-nombre" name="nombre" placeholder="Ej: Juan Pérez">
+                </div>
 
-        <div class="campo-formulario">
-            <input type="text" id="input-nombre" placeholder="Ej: Juan Perez">
-        </div>
-        <div class="campo-formulario">
-            <input type="email" id="input-email" placeholder="Ej: juan@example.com">
-        </div>
-        <div class="campo-formulario">
-            <input type="tel" id="input-telefono" placeholder="Ej: +123456789">
-        </div>
-        <div class="campo-formulario">
-            <textarea id="input-sintomas" placeholder="Ej: Mi notebook asus no prende la pantalla"></textarea>
-        </div>
+                <div>
+                    <label for="input-email">Correo electrónico:</label><br>
+                    <input type="email" id="input-email" name="email" placeholder="Ej: juan@example.com">
+                </div>
 
-        <button type="submit" id="btn-enviar-servicio" placeholder="Enviar Solicitud">Enviar Solicitud</button>
-    </div>
-    
+                <div>
+                    <label for="input-telefono">Teléfono:</label><br>
+                    <input type="tel" id="input-telefono" name="telefono" placeholder="Ej: +56912345678">
+                </div>
+
+                <div>
+                    <label for="input-sintomas">Síntomas del equipo:</label><br>
+                    <textarea id="input-sintomas" name="sintomas" placeholder="Ej: Mi notebook no enciende la pantalla"></textarea>
+                </div>
+
+                <div>
+                    <label for="input-fecha">Fecha preferida para la mantención:</label><br>
+                    <input type="date" id="input-fecha" name="fecha">
+                </div>
+
+                <div>
+                    <button type="submit">Reservar Mantención</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Servicio Técnico. Todos los derechos reservados.</p>
+        <p>Contacto: info@serviciotecnico.com</p>
+    </footer>
+
 </body>
-<footer>
-    <p>&copy; 2024 Servicio Técnico. Todos los derechos reservados.</p>
-    <p>Contacto: info@serviciotecnico.com</p>
-</footer>
 </html>
