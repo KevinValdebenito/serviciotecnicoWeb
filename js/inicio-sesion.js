@@ -10,10 +10,10 @@ botonInicioSesion.addEventListener('click',function(){
     const email=inputEmail.value;
     
     if(email === 'admin@example.cl'){
-        window.location='admin/index.html';
+        window.location='admin/indexAdmin.html';
         localStorage.setItem('rol_usuario','admin');
     }else if (email === 'empleado@tienda.cl'){
-        window.location='admin/empleado.html';
+        window.location='admin/indexEmpleado.html';
         localStorage.setItem('rol_usuario','empleado');
     } else {
         alert('Credenciales incorrectas. Por favor, inténtelo de nuevo.');
