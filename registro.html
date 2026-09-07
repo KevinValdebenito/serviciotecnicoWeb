@@ -3,28 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/index.css" rel="stylesheet">
     <title>Registro</title>
 </head>
-<div id="indice-web">
-    <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-        </ul>
-    </nav>
-</div>
 
-<!-- FALTA HACER UN DIV -->
-<h1>Registro</h1>
-<p>Registrate en nuestro sistema:</p>
-<input type="text" placeholder="Nombre completo">
-<input type="text" placeholder="Email">
-<input type="text" placeholder="RUN">
-<input type="date" placeholder="Fecha de nacimiento">
-<input type="password" placeholder="Contraseña">
-<button>Registrar</button>
+<header class="caeza">
 
+    <div class="izquierda-inicio">
+        <a href="index.html">Inicio</a>
+    </div>
+
+    <div class="logo-centro">
+        <a href="index.html">
+            <img src="logo.png" alt="Logo del Servicio Técnico">
+        </a>
+    </div>
+
+    <div class="derecha-inicio">
+        <a href="inicio-sesion.html">Iniciar Sesión</a>
+        <a href="registro.html">Registro</a>
+    </div>
+
+</header>
 
 <body>
-    
+
+    <div class="caja-registro">
+
+        <h1>Registro</h1>
+        <p>Registrate en nuestro sistema:</p>
+        
+        <div class="caja-nombre">
+        <label for="input-nombre">Nombre completo:</label>
+        <input type="text" id="input-nombre" placeholder="Nombre completo">
+        </div> 
+
+        <div class="caja-email">
+            <label for="input-email">Correo Electronico:</label>
+            <input type="text" id="input-email" placeholder="Email">
+        </div>
+
+        <div class="caja-run">
+            <label for="input-run">RUN:</label>
+            <input type="text" id="input-run" placeholder="RUN">
+        </div>
+
+        <div class="caja-fecha">
+            <label for="input-fecha">Fecha de nacimiento:</label>
+            <input type="date" id="input-fecha" placeholder="Fecha de nacimiento">
+        </div>
+
+        <div class="caja-contrasena">
+            <label for="input-contrasena">Contraseña:</label>
+            <input type="password" id="input-contrasena" placeholder="Contraseña">
+        </div>
+
+        <button>Registrar</button>
+
+    </div>
+
 </body>
+
+<footer class="pie-web">
+
+    <div class="pie-izq">
+        <p>Imagen-referencia_ubi</p>
+    </div>
+
+    <div class="pie-centro">
+        <p>&copy; 2024 Servicio Técnico. Todos los derechos reservados.</p>
+    </div>
+
+    <div class="pie-der">
+        <p>Contacto: info@serviciotecnico.com</p>
+    </div>
+
+</footer>
+
 </html>
