@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Editar Producto</title>
     <link rel="stylesheet" href="../assets/estilo.css">
 </head>
+
 <body>
-    
-    <header>
-        <div id="indice-web">
+
+    <header id="cabecera-admin">
+        <div>
             <nav>
                 <ul>
                     <li><a href="../index.html">Inicio</a></li>
@@ -19,31 +20,42 @@
         </div>
     </header>
 
-    <nav>
+    <div id="contenido-admin">
+
+        <h1>Editar Producto</h1>
+
+        <p>
+            Aquí puedes editar la información de los productos del servicio técnico.
+        </p>
+
         <div id="menu-admin">
-            <ul>
-                <li><a href="editEmpleado.html">Editar Empleados</a></li>
-                <li><a href="../empleado/busquedaEmpleado.html">Busqueda de Empleados</a></li>
-                <li><a href="pedidosAdmin.html">Gestionar Pedidos</a></li>
-            </ul>
+            <nav>
+                <ul>
+                    <li><a href="editEmpleado.html">Editar Empleados</a></li>
+                    <li><a href="../empleado/busquedaEmpleado.html">Busqueda de Empleados</a></li>
+                    <li><a href="pedidosAdmin.html">Gestionar Pedidos</a></li>
+                </ul>
+            </nav>
         </div>
-    </nav>
-    
 
-    <h1>Editar Producto</h1>
-    <p>Aquí puedes editar la información de los productos del servicio técnico.</p>
+        <div id="busqueda-admin">
 
-    <p>Buscar Producto por ID:</p>
-    <input type="text" placeholder="ID del Producto">
-    <button>Buscar</button>
+            <p>Buscar Producto por ID:</p>
 
-    <h2>Editar Producto:</h2>
+            <input type="text" placeholder="ID del Producto">
 
-    <footer>
+            <button>Buscar</button>
+
+            <h2>Editar Producto:</h2>
+
+        </div>
+
+    </div>
+
+    <footer id="pie-admin">
         <p>&copy; 2024 Servicio Técnico. Todos los derechos reservados.</p>
         <p>Contacto: info@serviciotecnico.com</p>
     </footer>
-    
-</body>
 
+</body>
 </html>

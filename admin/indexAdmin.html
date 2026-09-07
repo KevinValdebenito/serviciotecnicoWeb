@@ -6,10 +6,11 @@
     <title>IndexAdmin-ServicioTecnico</title>
     <link rel="stylesheet" href="../assets/estilo.css">
 </head>
+
 <body>
 
-    <header>
-        <div id="indice-web">
+    <header id="cabecera-admin">
+        <div>
             <nav>
                 <ul>
                     <li><a href="../index.html">Inicio</a></li>
@@ -18,29 +19,32 @@
         </div>
     </header>
 
-    <h1>Panel de Administración</h1>
-    <p>Bienvenido al panel de administración del servicio técnico. </p>
-    <p>Aquí puedes gestionar empleados y productos.</p>
+    <div id="contenido-admin">
 
-    <nav>
+        <h1>Panel de Administración</h1>
+
+        <p>Bienvenido al panel de administración del servicio técnico.</p>
+        <p>Aquí puedes gestionar empleados y productos.</p>
+
         <div id="menu-admin">
-            <ul>
-                <li><a href="editEmpleado.html">Editar Empleados</a></li>
-                <li><a href="../empleado/busquedaEmpleado.html">Busqueda de Empleados</a></li>
-                <li><a href="editProducto.html">Editar Productos</a></li>
-                <li><a href="pedidosAdmin.html">Gestionar Pedidos</a></li>
-            </ul>
+            <nav>
+                <ul>
+                    <li><a href="editEmpleado.html">Editar Empleados</a></li>
+                    <li><a href="../empleado/busquedaEmpleado.html">Busqueda de Empleados</a></li>
+                    <li><a href="editProducto.html">Editar Productos</a></li>
+                    <li><a href="pedidosAdmin.html">Gestionar Pedidos</a></li>
+                </ul>
+            </nav>
         </div>
-    </nav>
 
-    
+    </div>
+
     <script src="../js/admin.js"></script>
 
-    <footer>
+    <footer id="pie-admin">
         <p>&copy; 2024 Servicio Técnico. Todos los derechos reservados.</p>
         <p>Contacto: info@serviciotecnico.com</p>
     </footer>
-    
-</body>
 
+</body>
 </html>

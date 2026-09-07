@@ -6,10 +6,11 @@
     <title>Editar Empleado</title>
     <link rel="stylesheet" href="../assets/estilo.css">
 </head>
+
 <body>
 
-    <header>
-        <div id="indice-web">
+    <header id="cabecera-admin">
+        <div>
             <nav>
                 <ul>
                     <li><a href="../index.html">Inicio</a></li>
@@ -19,31 +20,46 @@
         </div>
     </header>
 
+    <div id="contenido-admin">
 
-    <h1>Editar Empleado</h1>
-    <p>Aquí puedes editar la información de los empleados del servicio técnico.</p>
-    <nav>
+        <h1>Editar Empleado</h1>
+
+        <p>
+            Aquí puedes editar la información de los empleados del servicio técnico.
+        </p>
+
         <div id="menu-admin">
-            <ul>
-                <li><a href="editProducto.html">Editar Productos</a></li>
-                <li><a href="../empleado/busquedaEmpleado.html">Busqueda de Empleados</a></li>
-                <li><a href="pedidosAdmin.html">Gestionar Pedidos</a></li>
-            </ul>
+            <nav>
+                <ul>
+                    <li><a href="editProducto.html">Editar Productos</a></li>
+                    <li><a href="../empleado/busquedaEmpleado.html">Busqueda de Empleados</a></li>
+                    <li><a href="pedidosAdmin.html">Gestionar Pedidos</a></li>
+                </ul>
+            </nav>
         </div>
-    </nav>
 
-    <h2>Buscar Empleado:</h2>
-    <input type="text" placeholder="Nombre del Empleado">
-    <button>Buscar</button>
+        <div id="busqueda-admin">
 
-    <h3>Resultados de la busqueda: </h3>
-    <p>Aquí se mostrarán los resultados de la búsqueda del empleado.</p>
+            <h2>Buscar Empleado:</h2>
 
-    <footer>
+            <input type="text" placeholder="Nombre del Empleado">
+
+            <button>Buscar</button>
+
+            <h3>Resultados de la busqueda:</h3>
+
+            <p>
+                Aquí se mostrarán los resultados de la búsqueda del empleado.
+            </p>
+
+        </div>
+
+    </div>
+
+    <footer id="pie-admin">
         <p>&copy; 2024 Servicio Técnico. Todos los derechos reservados.</p>
         <p>Contacto: info@serviciotecnico.com</p>
     </footer>
 
 </body>
-
 </html>
