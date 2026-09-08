@@ -9,7 +9,7 @@ botonInicioSesion.addEventListener('click',function(){
 
     const email=inputEmail.value;
     
-    if(email === 'admin@example.cl'){
+    if(email === '  '){
         window.location='admin/indexAdmin.html';
         localStorage.setItem('rol_usuario','admin');
     }else if (email === 'empleado@tienda.cl'){
