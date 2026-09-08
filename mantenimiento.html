@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="assets/index.css" rel="stylesheet">
     <title>Mantenimiento - Servicio Técnico</title>
+    <link rel="stylesheet" href="assets/estilo.css">
 </head>
 
 <header class="caeza">
@@ -40,20 +42,45 @@
                     <input type="text" id="input-nombre" name="nombre" placeholder="Ej: Juan Pérez">
                 </div>
 
-                <div>
-                    <label for="input-email">Correo electrónico:</label><br>
-                    <input type="email" id="input-email" name="email" placeholder="Ej: juan@example.com">
+                <div id="datos">
+
+                    <div class="dato">
+                        <p>Nombre completo:</p>
+                        <input type="text" placeholder="Ingrese su nombre">
+                    </div>
+
+                    <div class="dato">
+                        <p>Correo electrónico:</p>
+                        <input type="text" placeholder="Ingrese su correo">
+                    </div>
+
+                    <div class="dato">
+                        <p>Teléfono:</p>
+                        <input type="text" placeholder="Ingrese su teléfono">
+                    </div>
+
+                    <div class="dato">
+                        <p>Tipo de equipo:</p>
+                        <input type="text" placeholder="Ej: Notebook">
+                    </div>
+
+                    <div class="dato">
+                        <p>Problema del equipo:</p>
+                        <input type="text" placeholder="Describa el problema">
+                    </div>
+
+                    <div class="dato">
+                        <p>Fecha preferida:</p>
+                        <input type="text" placeholder="Ej: 10/09/2026">
+                    </div>
+
                 </div>
 
-                <div>
-                    <label for="input-telefono">Teléfono:</label><br>
-                    <input type="tel" id="input-telefono" name="telefono" placeholder="Ej: +56912345678">
+                <div id="boton">
+                    <button id="btnReservar">Reservar Mantenimiento</button>
                 </div>
 
-                <div>
-                    <label for="input-sintomas">Síntomas del equipo:</label><br>
-                    <textarea id="input-sintomas" name="sintomas" placeholder="Ej: Mi notebook no enciende la pantalla"></textarea>
-                </div>
+            </div>
 
                 <div>
                     <label for="input-fecha">Fecha de preferencia:</label><br>
@@ -64,6 +91,8 @@
                     <button type="submit">Reservar Mantención</button>
                 </div>
     </div>
+
+</body>
 
 <footer class="pie-web">
 
@@ -81,5 +110,6 @@
 
 </footer>
 
-</body>
+
 </html>
+```
