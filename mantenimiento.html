@@ -4,46 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/index.css" rel="stylesheet">
     <title>Mantenimiento - Servicio Técnico</title>
     <link rel="stylesheet" href="assets/estilo.css">
 </head>
 
+<header class="caeza">
+
+    <div class="izquierda-inicio">
+        <a href="index.html">Inicio</a>
+    </div>
+
+    <div class="logo-centro">
+        <a href="index.html">
+            <img src="logo.png" alt="Logo del Servicio Técnico">
+        </a>
+    </div>
+
+    <div class="derecha-inicio">
+        <a href="inicio-sesion.html">Iniciar Sesión</a>
+        <a href="registro.html">Registro</a>
+    </div>
+
+</header>
+
 <body>
 
-    <div id="contenedor">
+    <div class="caja-evaluacion">
 
-        <div id="cabecera">
+        <h1>Mantenimiento de Computadores</h1>
+        <p>Completa el formulario para reservar una mantención o solicitar evaluación técnica de tu equipo.</p>
 
-            <div id="logo">
-                <h1>Servicio Técnico</h1>
-            </div>
-
-            <div id="menu">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="producto.html">Productos</a></li>
-                        <li><a href="mantenimiento.html">Mantenimiento</a></li>
-                        <li><a href="inicio-sesion.html">Iniciar Sesión</a></li>
-                    </ul>
-                </nav>
-            </div>
-
-        </div>
-
-        <div id="contenido">
-
-            <div id="titulo">
-                <h1>Mantenimiento de Computadores</h1>
-                <p>
-                    Solicita una evaluación o mantenimiento para tu computador.
-                </p>
-            </div>
-
-            <div id="solicitud">
-
-                <div id="tituloSolicitud">
-                    <h2>Solicitud de Mantenimiento</h2>
+            <h2>Solicitud de Evaluación Técnica</h2>
+            
+                <div>
+                    <label for="input-nombre">Nombre completo:</label><br>
+                    <input type="text" id="input-nombre" name="nombre" placeholder="Ej: Juan Pérez">
                 </div>
 
                 <div id="datos">
@@ -86,24 +82,34 @@
 
             </div>
 
-        </div>
+                <div>
+                    <label for="input-fecha">Fecha de preferencia:</label><br>
+                    <input type="date" id="input-fecha" name="fecha">
+                </div>
 
-        <div id="pie">
-
-            <div id="informacion">
-                <p>Servicio Técnico</p>
-                <p>Contacto: info@serviciotecnico.com</p>
-            </div>
-
-            <div id="copyright">
-                <p>Todos los derechos reservados.</p>
-            </div>
-
-        </div>
-
+                <div>
+                    <button type="submit">Reservar Mantención</button>
+                </div>
     </div>
 
 </body>
+
+<footer class="pie-web">
+
+    <div class="pie-izq">
+        <p>Imagen-referencia_ubi</p>
+    </div>
+
+    <div class="pie-centro">
+        <p>&copy; 2024 Servicio Técnico. Todos los derechos reservados.</p>
+    </div>
+
+    <div class="pie-der">
+        <p>Contacto: info@serviciotecnico.com</p>
+    </div>
+
+</footer>
+
 
 </html>
 ```
