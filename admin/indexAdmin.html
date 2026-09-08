@@ -4,20 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IndexAdmin-ServicioTecnico</title>
-    <link rel="stylesheet" href="../assets/estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/index.css">
 </head>
 
-<body>
+<header class="cabecera-admin">
 
-    <header id="cabecera-admin">
-        <div>
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <div class="izquierda-inicio">
+        <a href="../index.html">Inicio</a>
+    </div>
+
+    <div class="logo-centro">
+        <a href="../index.html">
+        <img src="logo.png" alt="Logo del Servicio Técnico">
+        </a>
+    </div>
+
+</header>
+
+<body>
 
     <div id="contenido-admin">
 
@@ -27,24 +32,66 @@
         <p>Aquí puedes gestionar empleados y productos.</p>
 
         <div id="menu-admin">
-            <nav>
-                <ul>
-                    <li><a href="editEmpleado.html">Editar Empleados</a></li>
-                    <li><a href="../empleado/busquedaEmpleado.html">Busqueda de Empleados</a></li>
-                    <li><a href="editProducto.html">Editar Productos</a></li>
-                    <li><a href="pedidosAdmin.html">Gestionar Pedidos</a></li>
-                </ul>
-            </nav>
+
+            <div class="carta-editEmpleado" style="width: 18rem;">
+                    <img src="https://tse3.mm.bing.net/th/id/OIP.gQ3-cLtn2zUD8D72t4d-qgHaFS?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top" alt="Imagen de ejemplo">
+                <div class="card-body">
+                    <h5 class="card-title">Editor de Empleados</h5>
+                    <p class="card-text">Gestiona la información de los empleados del servicio técnico.</p>
+                    <a href="editEmpleado.html" class="btn btn-primary">Editar Empleado</a>
+                </div>
+            </div>
+
+            <div class="carta-buscaEmpleado" style="width: 18rem;">
+                    <img src="https://tse1.mm.bing.net/th/id/OIP.ZRN2WBbTjJWu4GSEX2u2NwHaEn?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top" alt="Imagen de ejemplo">
+                <div class="card-body">
+                    <h5 class="card-title">Buscador Empleados</h5>
+                    <p class="card-text">Busca y filtra empleados del servicio técnico.</p>
+                    <a href="../empleado/busquedaEmpleado.html" class="btn btn-primary">Buscar Empleado</a>
+                </div>
+            </div>
+
+            <div class="carta-editProducto" style="width: 18rem;">
+                    <img src="https://tse4.mm.bing.net/th/id/OIP.pJBNhKBVex2gp0s4iqKdsAHaE6?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top" alt="Imagen de ejemplo">
+                <div class="card-body">
+                    <h5 class="card-title">Editor de Productos</h5>
+                    <p class="card-text">Modifica u actualiza los productos del servicio técnico.</p>
+                    <a href="editProducto.html" class="btn btn-primary">Editar Producto</a>
+                </div>
+            </div>
+
+            <div class="carta-pedidosAdmin" style="width: 18rem;">
+                    <img src="https://tse1.mm.bing.net/th/id/OIP.Tg_N2Qb15OAHuDWF9-Ju7gHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top" alt="Imagen de ejemplo">
+                <div class="card-body">
+                    <h5 class="card-title">Gestionar Pedidos</h5>
+                    <p class="card-text">Aqui puedes gestionar los pedidos del servicio técnico.</p>
+                    <a href="pedidosAdmin.html" class="btn btn-primary">Gestionar Pedido</a>
+                </div>
+            </div>
         </div>
 
     </div>
 
     <script src="../js/admin.js"></script>
 
-    <footer id="pie-admin">
+ <footer class="pie-web">
+
+    <div class="pie-izq">
+        <p>Imagen-referencia_ubi</p>
+    </div>
+
+    <div class="pie-centro">
         <p>&copy; 2024 Servicio Técnico. Todos los derechos reservados.</p>
+    </div>
+
+    <div class="pie-der">
         <p>Contacto: info@serviciotecnico.com</p>
-    </footer>
+    </div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
 
 </body>
 </html>
