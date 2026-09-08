@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="assets/index.css" rel="stylesheet">
-    <title>InicioSesion-ServicioTecnico</title>
+    <title>Registro</title>
     <link rel="stylesheet" href="assets/estilo.css">
 </head>
 
@@ -29,29 +29,38 @@
 
 <body>
 
-    <div class="caja-inicio-sesion">
+    <div class="caja-registro">
+
+        <h1>Registro</h1>
+        <p>Registrate en nuestro sistema:</p>
         
-        <h1>Iniciar Sesion</h1>
+        <div class="caja-nombre">
+        <label for="input-nombre">Nombre completo:</label>
+        <input type="text" id="input-nombre" placeholder="Nombre completo">
+        </div> 
 
-        <div class="email-caja">   
+        <div class="caja-email">
             <label for="input-email">Correo Electronico:</label>
-            <input id="input-email" type="email" placeholder="Ingrese su correo electronico">
+            <input type="text" id="input-email" placeholder="Email">
         </div>
 
-        <div class="password-caja">
-            <label for="input-password">Contraseña:</labe>
-            <input id="input-password" type="password" placeholder="Ingrese su contraseña">
+        <div class="caja-run">
+            <label for="input-run">RUN:</label>
+            <input type="text" id="input-run" placeholder="RUN">
         </div>
 
-        <div class="boton-login">
-            <button id="btn-login">Iniciar Sesión</button>
+        <div class="caja-fecha">
+            <label for="input-fecha">Fecha de nacimiento:</label>
+            <input type="date" id="input-fecha" placeholder="Fecha de nacimiento">
         </div>
 
-        <p class="texto-registro">
-        ¿No tienes cuenta? <a href="registro.html">Regístrate aquí</a>
-        </p>
+        <div class="caja-contrasena">
+            <label for="input-contrasena">Contraseña:</label>
+            <input type="password" id="input-contrasena" placeholder="Contraseña">
+        </div>
 
-        <script src="js/inicio-sesion.js"></script>
+        <button>Registrar</button>
+
     </div>
 
 </body>

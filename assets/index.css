@@ -1,0 +1,160 @@
+/* Estilos para el header y footer 
+    Ademas del Index como tal */
+
+.caeza  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0371f8;
+    border-bottom: 1px solid #000000; 
+
+}
+.caeza a {
+    text-decoration: none;
+    color: #000000;
+
+}
+.logo-centro img {
+    height: 50px;
+
+}
+
+.logo-centro    {
+    height: 50px;
+
+}
+
+.derecha-inicio {
+    margin-left: 15px;
+}
+
+.derecha-inicio a {
+    margin-left: 20px;
+}
+
+.caja-cartas{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.pie-web {
+  display: flex;                 
+  justify-content: space-between; 
+  align-items: center;
+  padding: 10px 20px;            
+  background-color: #0371f8;     
+  border-top: 1px solid #000000;  
+  margin-top: 40px;
+  
+}   
+/* Estilos para el inicio de sesion (puse mal el nombre del archivo XD) */
+/* Los estilo del header y footer se repiten asi que no hace falta cambiarlos, cualquier cambio se haria en el mismo HTML */
+
+.caja-inicio-sesion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+/* Estilos para el registro */
+
+.caja-registro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/*Estilos para el mantenimiento */
+
+.caja-evaluacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/*Estilo del header adminIndex*/
+.cabecera-admin {
+    display: flex;
+    align-items: center;
+    background-color: #0371f8;
+    border-bottom: 1px solid #000000;
+    position: relative;
+    height: 70px;
+    padding: 10px 20px;
+}
+.cabecera-admin a {
+    text-decoration: none;
+    color: #000000;
+}
+.cabecera-admin .logo-centro img {
+    align-items: center;
+    flex: 1;
+    display: block;
+}
+.cabecera-admin .logo-centro {
+    position: absolute;
+    left: 50%;       
+    transform: translateX(-50%);
+}
+
+/* Estilos para el menu de adminIndex */
+
+#menu-admin {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+    align-items: stretch;
+}
+#menu-admin .card-img-top{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+#menu-admin > div {
+  width: 18rem;
+  display: flex;
+  flex-direction: column;
+  border: 1.5px solid #000000;
+  border-radius: 8px; 
+  overflow: hidden;
+  background-color: #ffffff;
+}
+#menu-admin .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between; 
+  padding: 15px;
+  flex-grow: 1;
+}
+#menu-admin .btn {
+  margin-top: 10px;
+  width: auto;                 /* Permite que el botón tome el tamaño según su texto */
+}
+
+/* Estilos para el editEmpleado.html */
+.cabecera-editEmpleado {
+    display: flex;
+    align-items: center;
+    background-color: #0371f8;
+    border-bottom: 1px solid #000000;
+     justify-content: space-between;
+    height: 70px;
+    padding: 10px 20px;
+}
+.cabecera-editEmpleado a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
